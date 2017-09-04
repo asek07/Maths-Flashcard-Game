@@ -1,0 +1,171 @@
+.card{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 325px;
+  min-height: 500px;
+  text-align: right;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  background-color: #F0F1F5;
+}
+
+body{
+  background-color: #64D98A;
+}
+
+h1{
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #003171;
+}
+
+#complete-head {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#user-result {
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #003171;
+  text-align: center;
+}
+
+.cardComplete {
+  width: 400px;
+}
+
+input {
+  height: 120px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  color: #D84315;
+}
+
+.backButton {
+  display: inline;
+  margin-left: 0px;
+}
+
+#home-btn{
+  display: inline;
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  height: 55px;
+  width: 175px;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  font-size: 30px;
+  font-weight: 100;
+  background-color: #2F79C3;
+  color: white;
+  bottom: 0px;
+
+}
+
+#math-Header {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#tileArea {
+  margin-left: 1%;
+}
+
+input:focus{
+  outline: none;
+}
+
+#resultTotal{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#operator {
+  text-align: left;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#number1{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+#number2 {
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#number2-container {
+  display: inline;
+  width: 100%;
+}
+
+#flash-container{
+  display: flex;
+}
+
+#math-type-tile {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 350px;
+  min-height: 600px;
+  padding: 30px;
+  margin: 30px;
+  display: inline-block;
+  background-color: #F0F1F5;
+}
+
+#math-type-header {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+#math-type-btn {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    height: 55px;
+    width: 250px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    font-size: 20px;
+    background-color: #e67e22;
+    color: white;
+    bottom: 0px;
+    margin-top: 125px;
+}
+
+#math-type-btn:hover{
+  background-color: #FF7416;
+}
+
+#math-image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  height: 300px;
+  width: 300px;
+}
